@@ -1,14 +1,21 @@
 import Image from 'next/image'
+import { signin } from 'next-auth/client'
 
 function Login() {
   return (
-    <div>
+    <div className="grid place-items-center m-10">
       <Image
         src="/assets/fb.png"
-        height={400}
-        width={400}
+        height={200}
+        width={200}
         objectFit="contain"
       />
+      <h1
+        className="p-5 bg-blue-500 rounded-full text-white text-center cursor-pointer mt-10"
+        onClick={signin}
+      >
+        Login with Facebook
+      </h1>
     </div>
   )
 }
