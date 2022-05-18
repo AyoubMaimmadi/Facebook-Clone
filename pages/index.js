@@ -7,14 +7,14 @@ export default function Home() {
       <Head>
         <title>Facebook-Clone</title>
       </Head>
-      <h1>Hello world</h1>
 
-      {/* Header  */}
       <Header />
 
       <main>
         {/* sidbar */}
+
         {/* feed */}
+
         {/* widgets */}
       </main>
     </div>
