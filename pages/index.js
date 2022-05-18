@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Login from '../components/Login'
 import Sidebar from '../components/Sidebar'
+import Feed from '../components/Feed'
 import { getSession } from 'next-auth/client'
 
 export default function Home({ session }) {
@@ -17,7 +18,7 @@ export default function Home({ session }) {
       <main>
         <Sidebar />
 
-        {/* feed */}
+        <Feed />
 
         {/* widgets */}
       </main>
