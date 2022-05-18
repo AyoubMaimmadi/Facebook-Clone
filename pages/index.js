@@ -12,14 +12,11 @@ export default function Home({ session }) {
       <Head>
         <title>Facebook-Clone</title>
       </Head>
-
       <Header />
 
-      <main>
+      <main className="flex">
         <Sidebar />
-
         <Feed />
-
         {/* widgets */}
       </main>
     </div>

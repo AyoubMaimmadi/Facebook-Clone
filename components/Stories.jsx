@@ -1,28 +1,30 @@
+import StoryCard from './StoryCard'
+
 const stories = [
   {
     name: 'Ayoub Maimmadi',
-    src: '/assest/ayoub.jpg',
-    profile: '/assest/ayoub2.PNG',
+    src: '/assets/ayoub.jpg',
+    profile: '/assets/ayoub2.PNG',
   },
   {
     name: 'Elon Musk',
-    src: '/assest/ayoub.jpg',
-    profile: '/assest/ayoub2.PNG',
+    src: '/assets/ayoub.jpg',
+    profile: '/assets/ayoub2.PNG',
   },
   {
     name: 'Jeff Bezoz',
-    src: '/assest/ayoub.jpg',
-    profile: '/assest/ayoub2.PNG',
+    src: '/assets/ayoub.jpg',
+    profile: '/assets/ayoub2.PNG',
   },
   {
     name: 'Mark Zuckerberg',
-    src: '/assest/ayoub.jpg',
-    profile: '/assest/ayoub2.PNG',
+    src: '/assets/ayoub.jpg',
+    profile: '/assets/ayoub2.PNG',
   },
   {
     name: 'Bill Gates',
-    src: '/assest/ayoub.jpg',
-    profile: '/assest/ayoub2.PNG',
+    src: '/assets/ayoub.jpg',
+    profile: '/assets/ayoub2.PNG',
   },
 ]
 
