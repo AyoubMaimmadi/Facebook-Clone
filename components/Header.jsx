@@ -55,8 +55,8 @@ function Header() {
           layout="fixed"
         />
       </div>
-      <p className="whitespace-nowrap font-semibold pr-3 ml-1">
-        Ayoub Maimmadi
+      <p className="whitespace-nowrap font-semibold pr-3 ml-2">
+        {session.user.name}
       </p>
       <ViewGridIcon className="icon" />
       <ChatIcon className="icon" />
