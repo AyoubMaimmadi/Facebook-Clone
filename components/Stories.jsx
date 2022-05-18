@@ -1,5 +1,4 @@
 import StoryCard from './StoryCard'
-
 const stories = [
   {
     name: 'Ayoub Maimmadi',
