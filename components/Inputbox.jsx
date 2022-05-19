@@ -5,7 +5,7 @@ const InputBox = () => {
   const [session] = useSession()
 
   return (
-    <div>
+    <div className="bg-gray-300 p-2 rounded-2xl shadow-lg text-gray-500 font-medium mt-6">
       <div className="flex space-x-4 items-center">
         <Image
           className="rounded-full"
@@ -16,8 +16,11 @@ const InputBox = () => {
         />
         <form className="flex flex-1 ">
           <input
+            className="rounded-full h-12 bg-gray-100 flex-grow px-5 focus:outline-none"
             type="text"
-            placeholder={`what's on your mind, ${session.user.name}`}
+            placeholder={`What's on your mind, ${
+              session.user.name.split(' ')[0]
+            }?`}
           />
         </form>
       </div>
