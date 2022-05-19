@@ -53,7 +53,7 @@ function Header() {
         />
       </div>
       <p className="whitespace-nowrap font-semibold pr-3 ml-2">
-        {session.user.name}
+        {session.user.name.split(' ')[0]}
       </p>
       <ViewGridIcon className="icon" />
       <ChatIcon className="icon" />
