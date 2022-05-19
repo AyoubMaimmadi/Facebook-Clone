@@ -4,7 +4,7 @@ import { ChatAltIcon, ShareIcon, ThumbUpIcon } from '@heroicons/react/outline'
 const Post = ({ name, message, email, postImage, image, timestamp }) => {
   return (
     <div className="flex flex-col">
-      <div className="p-5 bg-gray-300 mt-5 rounded-t-2xl shadow-sm">
+      <div className="p-5 bg-gray-200 mt-5 rounded-t-2xl shadow-sm">
         <div className="flex items-center space-x-2">
           <img className="rounded-full" src={image} width={40} height={40} />
           <div>
@@ -22,7 +22,7 @@ const Post = ({ name, message, email, postImage, image, timestamp }) => {
         <p className="pt-4">{message}</p>
       </div>
       {postImage && (
-        <div className="relative h-56 md:h-96 bg-gray-300">
+        <div className="relative h-56 md:h-96 bg-gray-300 mb-0.5">
           <Image src={postImage} objectFit="cover" layout="fill" />
         </div>
       )}
