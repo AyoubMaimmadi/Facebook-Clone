@@ -9,6 +9,7 @@ function Login() {
         height={200}
         width={200}
         objectFit="contain"
+        alt="image"
       />
       <h1
         className="p-5 bg-blue-500 rounded-full text-white text-center cursor-pointer mt-10"

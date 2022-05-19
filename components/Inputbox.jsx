@@ -82,6 +82,7 @@ const InputBox = () => {
           width={40}
           height={40}
           layout="fixed"
+          alt="image"
         />
         <form className="flex flex-1 ">
           <input
