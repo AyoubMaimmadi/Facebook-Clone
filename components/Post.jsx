@@ -1,9 +1,7 @@
-import Image from next/image
+import Image from 'next/image'
 
 const Post = () => {
-  return (
-    <div>Post</div>
-  )
+  return <div>Post</div>
 }
 
 export default Post
