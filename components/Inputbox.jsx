@@ -28,7 +28,20 @@ const InputBox = () => {
     inputRef.current.value = ''
   }
 
-  const addImageToPost = (e) => {}
+  const addImageToPost = (e) => {
+    const reader = new FileReader()
+    if (e.target.files[0]) {
+      reader.readAsDataURL(e.target.files[0])
+    }
+
+    reader.onload = (readerEvent) => {
+      setImageToPost(readerEvent.target.result)
+    }
+  }
+
+  const removeImage = () => {
+    setImageToPost(null)
+  }
 
   return (
     <div className="bg-gray-200 p-2 rounded-2xl shadow-lg text-gray-500 font-medium mt-6">
