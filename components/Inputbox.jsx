@@ -41,9 +41,15 @@ const InputBox = () => {
           <p className="text-xs sm:text-sm xl:text-base">Live Video</p>
         </div>
 
-        <div></div>
+        <div className="inputIcon">
+          <CameraIcon className="h-7 text-green-400" />
+          <p className="text-xs sm:text-sm xl:text-base">Photo/Video</p>
+        </div>
 
-        <div></div>
+        <div className="inputIcon">
+          <EmojiHappyIcon className="h-7 text-yellow-300" />
+          <p className="text-xs sm:text-sm xl:text-base">Feeling/Activity</p>
+        </div>
       </div>
     </div>
   )
