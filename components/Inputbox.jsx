@@ -4,6 +4,10 @@ import { useSession } from 'next-auth/client'
 const InputBox = () => {
   const [session] = useSession()
 
+  const sendPost = (e) => {
+    e.preventDefault()
+  }
+
   return (
     <div className="bg-gray-300 p-2 rounded-2xl shadow-lg text-gray-500 font-medium mt-6">
       <div className="flex space-x-4 items-center">
@@ -22,6 +26,9 @@ const InputBox = () => {
               session.user.name.split(' ')[0]
             }?`}
           />
+          <button hidden onClick={sendPost}>
+            Submit
+          </button>
         </form>
       </div>
     </div>
