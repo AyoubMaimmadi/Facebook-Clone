@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import { useSession } from 'next-auth/client'
 
+import { EmojiHappyIcon } from '@heroicons/react/outline'
+import { CameraIcon, VideoCameraIcon } from '@heroicons/react/solid'
+
 const InputBox = () => {
   const [session] = useSession()
 
@@ -9,7 +12,7 @@ const InputBox = () => {
   }
 
   return (
-    <div className="bg-gray-300 p-2 rounded-2xl shadow-lg text-gray-500 font-medium mt-6">
+    <div className="bg-gray-200 p-2 rounded-2xl shadow-lg text-gray-500 font-medium mt-6">
       <div className="flex space-x-4 items-center">
         <Image
           className="rounded-full"
@@ -20,7 +23,7 @@ const InputBox = () => {
         />
         <form className="flex flex-1 ">
           <input
-            className="rounded-full h-12 bg-gray-100 flex-grow px-5 focus:outline-none"
+            className="rounded-full h-12 bg-gray-50 flex-grow px-5 focus:outline-none"
             type="text"
             placeholder={`What's on your mind, ${
               session.user.name.split(' ')[0]
@@ -30,6 +33,17 @@ const InputBox = () => {
             Submit
           </button>
         </form>
+      </div>
+
+      <div className="flex justify-evenly p-3 border-t">
+        <div className="inputIcon">
+          <VideoCameraIcon className="h-7 text-red-500" />
+          <p className="text-xs sm:text-sm xl:text-base">Live Video</p>
+        </div>
+
+        <div></div>
+
+        <div></div>
       </div>
     </div>
   )
