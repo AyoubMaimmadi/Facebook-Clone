@@ -5,7 +5,7 @@ import Sidebar from '../components/Sidebar'
 import Feed from '../components/Feed'
 import { getSession } from 'next-auth/client'
 
-export default function Home({ session }) {
+export default function Home({ session, posts }) {
   if (!session) return <Login />
   return (
     <div>
@@ -16,7 +16,7 @@ export default function Home({ session }) {
 
       <main className="flex">
         <Sidebar />
-        <Feed />
+        <Feed posts={posts} />
         {/* widgets */}
       </main>
     </div>
