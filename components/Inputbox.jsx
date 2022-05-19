@@ -1,7 +1,7 @@
 import { useRef } from 'react'
 import Image from 'next/image'
 import { useSession } from 'next-auth/client'
-
+import { db } from '../firebase'
 import { EmojiHappyIcon } from '@heroicons/react/outline'
 import { CameraIcon, VideoCameraIcon } from '@heroicons/react/solid'
 
@@ -21,6 +21,8 @@ const InputBox = () => {
       image: session.user.image,
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
     })
+
+    inputRef.current.value = ''
   }
 
   return (
@@ -40,6 +42,7 @@ const InputBox = () => {
             placeholder={`What's on your mind, ${
               session.user.name.split(' ')[0]
             }?`}
+            ref={inputRef}
           />
           <button hidden onClick={sendPost}>
             Submit
