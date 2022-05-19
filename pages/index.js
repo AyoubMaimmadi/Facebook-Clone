@@ -5,6 +5,7 @@ import Sidebar from '../components/Sidebar'
 import Feed from '../components/Feed'
 import Widgets from '../components/Widgets'
 import { getSession } from 'next-auth/client'
+import { db } from '../firebase'
 
 export default function Home({ session, posts }) {
   if (!session) return <Login />
