@@ -87,7 +87,7 @@ const InputBox = () => {
           <input
             className="rounded-full h-12 bg-gray-50 flex-grow px-5 focus:outline-none"
             type="text"
-            placeholder={`What's on your mind, ${
+            placeholder={`Say something or upload a photo, ${
               session.user.name.split(' ')[0]
             }?`}
             ref={inputRef}
