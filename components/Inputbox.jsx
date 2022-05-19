@@ -1,3 +1,4 @@
+import { useRef } from 'react'
 import Image from 'next/image'
 import { useSession } from 'next-auth/client'
 
@@ -6,9 +7,20 @@ import { CameraIcon, VideoCameraIcon } from '@heroicons/react/solid'
 
 const InputBox = () => {
   const [session] = useSession()
+  const inputRef = useRef(null)
 
   const sendPost = (e) => {
     e.preventDefault()
+
+    if (!inputRef.current.value) return
+
+    db.collection('posts').add({
+      message: inputRef.current.value,
+      name: session.user.name,
+      email: session.user.email,
+      image: session.user.image,
+      timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+    })
   }
 
   return (
