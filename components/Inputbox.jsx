@@ -1,5 +1,6 @@
 import { useRef } from 'react'
 import Image from 'next/image'
+import firebase from 'firebase'
 import { useSession } from 'next-auth/client'
 import { db } from '../firebase'
 import { EmojiHappyIcon } from '@heroicons/react/outline'
