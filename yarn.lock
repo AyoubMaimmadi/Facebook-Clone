@@ -302,17 +302,17 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@next-auth/prisma-legacy-adapter@canary":
-  version "0.0.1-canary.163"
-  resolved "https://registry.yarnpkg.com/@next-auth/prisma-legacy-adapter/-/prisma-legacy-adapter-0.0.1-canary.163.tgz#731bf786d7e4a7f2c9d594e356a21a3f18c816d8"
-  integrity sha512-xJh0HG9Hvjw2xEpNA+jp5/ElYDwES3UP3DQsG4ybHfU8X2WZBsCljzQJb54VBmuZdQxGW5apY77Sc+FXOimopg==
+"@next-auth/prisma-legacy-adapter@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@next-auth/prisma-legacy-adapter/-/prisma-legacy-adapter-0.1.2.tgz#d19b65696bf16bda5dbc88f85da98aee6f30e2f3"
+  integrity sha512-QpGcRvrnFERkvVFroqS89qDbnskw9AjhvWxO095u3xl/8QVI++Y+doluQdZWuV6PewjrV7xY+uVUEnRhnGM8yQ==
   dependencies:
     "@babel/runtime" "^7.14.0"
 
-"@next-auth/typeorm-legacy-adapter@canary":
-  version "0.0.2-canary.218"
-  resolved "https://registry.yarnpkg.com/@next-auth/typeorm-legacy-adapter/-/typeorm-legacy-adapter-0.0.2-canary.218.tgz#32686992d245f5e5dfbe4283ee3e17e82b0fb8ae"
-  integrity sha512-NuuN72WV05E6wATvz294MDOtLhHLUKIltyCnT++eGOUJUae9jSsaZTvWCvNOTDLGDXgPcCWs8W9f/N06EJr1/Q==
+"@next-auth/typeorm-legacy-adapter@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@next-auth/typeorm-legacy-adapter/-/typeorm-legacy-adapter-0.1.4.tgz#a250498613669b736d76b36a2a46f7eafc9e6ed5"
+  integrity sha512-UDnctrPiUU0yaPNeFhD6uw0FAuWGvx6IUVwUYTEzZm26RCEe/BBjkpGLYk43M3rcnkBPfkiljomAs/O7Uzh12w==
   dependencies:
     "@babel/runtime" "^7.14.0"
     require_optional "^1.0.1"
@@ -1897,14 +1897,14 @@ natural-compare@^1.4.0:
   resolved "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-auth@3.21.1:
-  version "3.21.1"
-  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-3.21.1.tgz#7c226d4022785983823a7cd01eb1cae83bd762c6"
-  integrity sha512-bCtW85rndUG8mt4Paip/BRxC4ZmA+V1Slta9ojh94dzylnYaPHXQrwtlZSl9asM5VKRAKC9Y3m+Q+VLqPDLVLA==
+next-auth@3.29.0:
+  version "3.29.0"
+  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-3.29.0.tgz#60ddbfc7ed8ae7d43ebb02c16dc58eebf5dcb337"
+  integrity sha512-B//4QTv/1Of0D+roZ82URmI6L2JSbkKgeaKI7Mdrioq8lAzp9ff8NdmouvZL/7zwrPe2cUyM6MLYlasfuI3ZIQ==
   dependencies:
     "@babel/runtime" "^7.14.0"
-    "@next-auth/prisma-legacy-adapter" canary
-    "@next-auth/typeorm-legacy-adapter" canary
+    "@next-auth/prisma-legacy-adapter" "0.1.2"
+    "@next-auth/typeorm-legacy-adapter" "0.1.4"
     futoin-hkdf "^1.3.2"
     jose "^1.27.2"
     jsonwebtoken "^8.5.1"
