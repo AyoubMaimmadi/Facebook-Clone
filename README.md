@@ -18,7 +18,7 @@ To use you need to:
 
 4- Install tailwindcss as a developement dependency: `yarn add -D tailwindcss`
 
-4- open terminal and run:
+5- open terminal and run:
 
 ##### - `npm or yarn install` to install node modules
 
