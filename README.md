@@ -1,4 +1,6 @@
-# Facebook Clone (Still In Production)
+# Facebook Clone
+
+![](./public/assets/main2.PNG)
 
 ## A clone website to Facebook using Next and Tailwind.
 
@@ -23,7 +25,5 @@ To use you need to:
 #### You can see this website using the link
 
 ##### https://raw.githubusercontent.com/AyoubMaimmadi/Facebook-Clone/master/public/assets/main2.PNG
-
-![](./public/assets/main2.PNG)
 
 ![](./public/assets/main.PNG)
