@@ -2,8 +2,6 @@
 
 ![](./public/assets/main2.PNG)
 
-![](./public/assets/main2.PNG)
-
 ## A clone website to Facebook using Next and Tailwind.
 
 ### You can add new posts that are stored using Firebase.
