@@ -22,8 +22,6 @@ To use you need to:
 
 ##### - `npm or yarn run dev` to open developement at localhost:3000
 
-#### View Website: [https://ayoub-faceboook-clone.vercel.app/](https://ayoub-faceboook-clone.vercel.app/)
-
-##### https://raw.githubusercontent.com/AyoubMaimmadi/Facebook-Clone/master/public/assets/main2.PNG
+##### View -> https://raw.githubusercontent.com/AyoubMaimmadi/Facebook-Clone/master/public/assets/main2.PNG
 
 ![](./public/assets/main.PNG)
