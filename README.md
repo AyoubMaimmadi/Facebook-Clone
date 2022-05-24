@@ -2,8 +2,6 @@
 
 ![](./public/assets/main2.PNG)
 
-![](./public/assets/main2.PNG)
-
 ## A clone website to Facebook using Next and Tailwind.
 
 ### You can add new posts that are stored using Firebase.
@@ -18,7 +16,7 @@ To use you need to:
 
 4- Install tailwindcss as a developement dependency: `yarn add -D tailwindcss`
 
-4- open terminal and run:
+5- open terminal and run:
 
 ##### - `npm or yarn install` to install node modules
 
