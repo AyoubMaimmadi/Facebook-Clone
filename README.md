@@ -22,6 +22,8 @@ To use you need to:
 
 ##### - `npm or yarn run dev` to open developement at localhost:3000
 
-##### View -> https://raw.githubusercontent.com/AyoubMaimmadi/Facebook-Clone/master/public/assets/main2.PNG
+##### View unsecure website-> https://ayoub-faceboook-clone.vercel.app/
+
+###### Or picture -> https://raw.githubusercontent.com/AyoubMaimmadi/Facebook-Clone/master/public/assets/main2.PNG
 
 ![](./public/assets/main.PNG)
