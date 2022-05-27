@@ -24,6 +24,6 @@ To use you need to:
 
 ##### View unsecure website-> https://ayoub-faceboook-clone.vercel.app/
 
-###### Or picture -> https://raw.githubusercontent.com/AyoubMaimmadi/Facebook-Clone/master/public/assets/main2.PNG
+###### Or picture -> https://raw.githubusercontent.com/AyoubMaimmadi/Facebook-Clone/master/public/assets/main.PNG
 
 ![](./public/assets/main.PNG)
